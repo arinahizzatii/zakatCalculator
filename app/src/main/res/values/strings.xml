@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Zakat Calculator</string>
+    <string name="radio_keep">Keep</string>
+    <string name="radio_wear">Wear</string>
+    <string name="btn_display">Display</string>
+    <string name="copyright">Copyright©ZakatItuRukunIslam</string>
+    <string name="About_Text"><a href="https://github.com/MrAntiFun11/Zakat_Apps/commit/ba2350f04381d7721c3873d49b7609646b6dc475">Source Code Link</a></string>
+    <string name="developer">NAME: NUR ARINAH IZZATI BINTI MOHD AFAZI</string>
+    <string name="devID">STUDENT ID: 2020834486</string>
+    <string name="group">GROUP: CS2405A</string>
+    <string name="programmecode">PROGRAMME CODE: CS240</string>
+    <string name="stline">____________________________________________________</string>
+</resources>

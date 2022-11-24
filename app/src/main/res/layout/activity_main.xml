@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/wallpaperzakat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip">
+
+        <TextView
+            android:id="@+id/TotalGold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:text="Total Gold Value: "
+            android:textColor="#009688"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"/>
+
+        <TextView
+            android:id="@+id/ZakatPayable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:text="Zakat Payable: "
+            android:textColor="#009688"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"/>
+
+        <TextView
+            android:id="@+id/TotalZakat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:text="Total Zakat: "
+            android:textColor="#009688"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundColor="#FFFFFF"
+            app:boxBackgroundMode="outline">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/weightvalue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Weight of Gold (g)"
+                android:inputType="numberDecimal"
+                android:textColor="#000000"
+                android:textColorHint="#6495ED"
+                android:textSize="18sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundColor="#FFFFFF"
+            app:boxBackgroundMode="outline">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/goldvalue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Current Gold Value (g)"
+                android:inputType="numberDecimal"
+                android:textColor="#000000"
+                android:textColorHint="#6495ED"
+                android:textSize="18sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/GoldType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:text="Choose Type of Gold: "
+            android:textColor="#009688"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radioKeep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="true"
+                android:text="Keep"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <RadioButton
+                android:id="@+id/radioWear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="true"
+                android:text="Wear"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:text="CALCULATE"
+            android:textStyle="normal|bold"
+            app:backgroundTint="#009688" />
+
+        <Button
+            android:id="@+id/buttonReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:text="RESET"
+            android:textStyle="normal|bold"
+            app:backgroundTint="#009688" />
+    </LinearLayout>
+
+</RelativeLayout>

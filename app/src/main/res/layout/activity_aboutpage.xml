@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_aboutpage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dip"
+        android:contentDescription="TODO"
+        android:src="@drawable/zakatlogo"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dip"
+        android:text="Zakat Calculator"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dip"
+        android:text="Copyright©ZakatItuRukunIslam"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/textViewLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="16dip"
+        android:text="Source Code Link"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="14dp"
+        android:text="NAME: NUR ARINAH IZZATI BINTI MOHD AFAZI"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="2dp"
+        android:text="STUDENT ID: 2020834486"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="2dp"
+        android:text="GROUP: CS2405A"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="2dp"
+        android:text="PROGRAM CODE: CS240"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginStart="16dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginBottom="5dip"
+        android:text="----------------------------------------------------------------------------------------------------"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"/>
+
+</RelativeLayout>
